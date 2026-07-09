@@ -150,5 +150,14 @@
     "description_en": "App with information about the 2026 World Cup, including team data, stadiums, and match schedule.",
     "techs": ["React", "Typescript", "Tailwind"],
     "link": "https://copa2026-smvn.vercel.app/"
+  },
+    {
+    "id": 17,
+    "img": "https://res.cloudinary.com/ds4ptms7d/image/upload/v1783638056/Macbook-Air-galery-plus.up.railway.app_wlbpwe.png",
+    "title": "Galery plus",
+    "description_pt": "Galeria de imagens moderna com gerenciamento de álbuns e fotos.",
+    "description_en": "Modern image gallery with album and photo management.",
+    "techs": ["React", "Typescript", "Tailwind"],
+    "link": "https://galery-plus.up.railway.app/"
   }
 ]
