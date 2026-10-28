@@ -1,56 +1,103 @@
 [
-{
-"id": 1,
-"img": "https://res.cloudinary.com/ds4ptms7d/image/upload/v1761652313/Captura_de_tela_de_2025-10-28_08-50-24_kvjedu.png",
-"title": "API Tickets",
-"description_pt": "API para gerenciamento de tickets de suporte, com banco de dados PostgreSQL e ambiente Docker.",
-"description_en": "API for support ticket management, using PostgreSQL and Docker.",
-"link": "https://github.com/thiagokilu/api-tickets",
-"techs": ["Node.js", "NestJS", "PostgreSQL", "Docker"]
-},
-{
-"id": 2,
-"img": "https://res.cloudinary.com/ds4ptms7d/image/upload/v1762794413/Captura_de_tela_de_2025-11-10_14-06-37_zpkc1e.png",
-"title": "API Books",
-"description_pt": "API REST para gerenciamento de uma estante virtual, com autenticação, recuperação de senha, confirmação de e-mail, Redis e testes automatizados.",
-"description_en": "REST API for managing a virtual bookshelf, featuring authentication, password recovery, email verification, Redis, and automated tests.",
-"link": "https://github.com/thiagokilu/api-books",
-"techs": ["Node.js", "Fastify", "PostgreSQL", "Redis", "Drizzle ORM", "Vitest", "Docker"]
-},
-{
-"id": 3,
-"img": "https://res.cloudinary.com/ds4ptms7d/image/upload/v1762794413/Captura_de_tela_de_2025-11-10_14-06-37_zpkc1e.png",
-"title": "Book Shelf Hub",
-"description_pt": "Aplicação para gerenciamento de uma estante virtual de livros.",
-"description_en": "Application for managing a virtual bookshelf.",
-"link": "https://github.com/thiagokilu/book-shelf-hub",
-"techs": ["TypeScript"]
-},
-{
-"id": 4,
-"img": "https://res.cloudinary.com/dbwz36bcf/image/upload/v1745364028/4_Kanban_lyaywv.png",
-"title": "Gemstone Seekers",
-"description_pt": "Projeto colaborativo de jogo desenvolvido em comunidade, com contribuição em um repositório compartilhado.",
-"description_en": "Collaborative game project developed within a community, with contributions to a shared repository.",
-"link": "https://github.com/juninhos-comunidade/gemstone-seekers",
-"techs": ["Game Development"]
-},
-{
-"id": 5,
-"img": "https://res.cloudinary.com/ds4ptms7d/image/upload/v1761670908/Captura_de_tela_de_2025-10-28_14-00-03_bb7psc.png",
-"title": "Nexa System",
-"description_pt": "Sistema full stack para gerenciamento de tickets de suporte, com frontend, API e banco de dados.",
-"description_en": "Full-stack support ticket management system with a frontend, API, and database.",
-"link": "https://nexa-system.vercel.app/",
-"techs": ["Next.js", "TypeScript", "Node.js", "Express", "PostgreSQL", "Docker"]
-},
-{
-"id": 6,
-"img": "https://res.cloudinary.com/ds4ptms7d/image/upload/v1764935078/Captura_de_tela_de_2025-12-05_08-44-15_utelu4.png",
-"title": "Encurtador de URL",
-"description_pt": "Sistema de encurtamento de URLs com geração de QR Codes, expiração personalizada e dashboard.",
-"description_en": "URL shortening system with QR code generation, custom expiration, and a dashboard.",
-"link": "https://github.com/thiagokilu/Url-shortener",
-"techs": ["React", "Tailwind CSS", "Node.js", "Express", "PostgreSQL"]
-}
+  {
+    "id": 1,
+    "img": "",
+    "title": "API Tickets",
+    "description_pt": "API REST para gerenciamento de tickets de suporte, com autenticação, controle de acesso por permissões, atribuição de agentes, prioridades, mensagens, anexos e histórico de alterações.",
+    "description_en": "REST API for support ticket management, featuring authentication, permission-based access control, agent assignment, priorities, messages, file attachments, and change history.",
+    "link": "https://github.com/thiagokilu/api-tickets",
+    "techs": [
+      "Node.js",
+      "TypeScript",
+      "NestJS",
+      "Prisma",
+      "PostgreSQL",
+      "Redis",
+      "Docker"
+    ]
+  },
+  {
+    "id": 2,
+    "img": "",
+    "title": "API Books",
+    "description_pt": "API REST para gerenciamento de uma estante virtual de livros, com autenticação JWT, confirmação de e-mail, recuperação de senha, busca de livros, acompanhamento de leitura, testes unitários e end-to-end e pipeline CI/CD.",
+    "description_en": "REST API for a virtual bookshelf, featuring JWT authentication, email verification, password recovery, book search, reading progress tracking, unit and end-to-end tests, and a CI/CD pipeline.",
+    "link": "https://github.com/thiagokilu/api-books",
+    "techs": [
+      "Node.js",
+      "TypeScript",
+      "Fastify",
+      "PostgreSQL",
+      "Drizzle ORM",
+      "Redis",
+      "Vitest",
+      "Docker"
+    ]
+  },
+  {
+    "id": 3,
+    "img": "",
+    "title": "Book Shelf Hub",
+    "description_pt": "Aplicativo mobile para leitores organizarem suas estantes pessoais, descobrirem livros, consultarem detalhes das obras e acompanharem o progresso de leitura, integrado à API Books.",
+    "description_en": "Mobile application that helps readers organize personal bookshelves, discover books, explore book details, and track reading progress, integrated with the API Books backend.",
+    "link": "https://github.com/thiagokilu/book-shelf-hub",
+    "techs": [
+      "React Native",
+      "Expo",
+      "TypeScript",
+      "Expo Router",
+      "React i18next",
+      "REST API"
+    ]
+  },
+  {
+    "id": 4,
+    "img": "",
+    "title": "Gemstone Seekers",
+    "description_pt": "Plataforma de recrutamento que conecta profissionais de tecnologia a oportunidades de emprego, com avaliações técnicas geradas por IA, radar de competências, gamificação e matching de vagas por proficiência. Minha contribuição foi focada na arquitetura e no desenvolvimento do frontend.",
+    "description_en": "Recruitment platform connecting technology professionals with job opportunities through AI-generated technical assessments, a skills radar, gamification, and proficiency-based job matching. My contribution focused on frontend architecture and feature development.",
+    "link": "https://github.com/juninhos-comunidade/gemstone-seekers",
+    "techs": [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "TanStack Query",
+      "Java",
+      "Spring Boot",
+      "Spring AI",
+      "PostgreSQL",
+      "Docker"
+    ]
+  },
+  {
+    "id": 5,
+    "img": "https://res.cloudinary.com/ds4ptms7d/image/upload/v1761670908/Captura_de_tela_de_2025-10-28_14-00-03_bb7psc.png",
+    "title": "Nexa System",
+    "description_pt": "Aplicação web para gerenciamento de chamados de suporte, integrada a uma API REST com PostgreSQL e Docker, permitindo consultar e acompanhar tickets.",
+    "description_en": "Web application for managing support requests, integrated with a REST API using PostgreSQL and Docker to view and track tickets.",
+    "link": "https://nexa-system.vercel.app/",
+    "techs": [
+      "Next.js",
+      "TypeScript",
+      "Node.js",
+      "Express",
+      "PostgreSQL",
+      "Docker"
+    ]
+  },
+  {
+    "id": 6,
+    "img": "https://res.cloudinary.com/ds4ptms7d/image/upload/v1774373328/Screenshot_2026-03-24_14-28-36_wfrcyq.png",
+    "title": "Chronos Pomodoro",
+    "description_pt": "Aplicação web de produtividade baseada na técnica Pomodoro, com temporizador, estatísticas e notificações utilizando Web Workers.",
+    "description_en": "Productivity web application based on the Pomodoro technique, featuring a timer, statistics, and notifications using Web Workers.",
+    "link": "https://chronos-pomodoro-roan-xi.vercel.app/",
+    "techs": [
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "Web Workers"
+    ]
+  }
 ]
